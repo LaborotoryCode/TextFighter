@@ -1,5 +1,7 @@
 import main
 import Defense
+from main import *
+from Defense import *
 
 def attack1(receiverDefence, receiverHealth, attackerStamina):
     receiverHealth -= int(1*10*receiverDefence)
